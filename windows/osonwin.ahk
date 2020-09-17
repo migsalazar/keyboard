@@ -49,7 +49,6 @@ LCtrl & Tab::AltTab
 ; --------------------------------------------------------------
 ; remaps alt-arrow and command-arrow
 ; --------------------------------------------------------------
-; Navigation of smaller chunks (skip word)
 ^Up::Send {Lctrl down}{Home}{Lctrl up}
 ^Down::Send {Lctrl down}{End}{Lctrl up}
 ^Left::Send {Home}
