@@ -1,0 +1,75 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+      "key": "cmd+n cmd+n",
+      "command": "explorer.newFile"
+  },
+  {
+      "key": "cmd+n cmd+f",
+      "command": "explorer.newFolder"
+  },
+  {
+      "key": "cmd+r",
+      "command": "workbench.action.openRecent"
+  },
+  {
+      "key": "ctrl+r",
+      "command": "-workbench.action.openRecent"
+  },
+  {
+      "key": "shift+cmd+]",
+      "command": "editor.action.indentLines",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "cmd+]",
+      "command": "-editor.action.indentLines",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+cmd+]",
+      "command": "markdown.extension.onIndentLines",
+      "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
+  },
+  {
+      "key": "cmd+]",
+      "command": "-markdown.extension.onIndentLines",
+      "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
+  },
+  {
+      "key": "cmd+]",
+      "command": "workbench.action.nextEditor"
+  },
+  {
+      "key": "shift+cmd+]",
+      "command": "-workbench.action.nextEditor"
+  },
+  {
+      "key": "shift+cmd+[",
+      "command": "editor.action.outdentLines",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "cmd+[",
+      "command": "-editor.action.outdentLines",
+      "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "shift+cmd+[",
+      "command": "markdown.extension.onOutdentLines",
+      "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
+  },
+  {
+      "key": "cmd+[",
+      "command": "-markdown.extension.onOutdentLines",
+      "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
+  },
+  {
+      "key": "cmd+[",
+      "command": "workbench.action.previousEditor"
+  },
+  {
+      "key": "shift+cmd+[",
+      "command": "-workbench.action.previousEditor"
+  },
+]
