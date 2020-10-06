@@ -101,7 +101,7 @@
         "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
     },
     {
-        "key": "ctrl+oem_6",
+        "key": "ctrl+shift+oem_6",
         "command": "workbench.action.nextEditor"
     },
     {
@@ -109,7 +109,7 @@
         "command": "-workbench.action.nextEditor"
     },
     {
-        "key": "ctrl+oem_4",
+        "key": "ctrl+shift+oem_4",
         "command": "workbench.action.previousEditor"
     },
     {
@@ -117,7 +117,7 @@
         "command": "-workbench.action.previousEditor"
     },
     {
-        "key": "ctrl+shift+oem_6",
+        "key": "ctrl+oem_6",
         "command": "editor.action.indentLines",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -127,7 +127,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+oem_6",
+        "key": "ctrl+oem_6",
         "command": "markdown.extension.onIndentLines",
         "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
     },
@@ -137,7 +137,7 @@
         "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
     },
     {
-        "key": "ctrl+shift+oem_4",
+        "key": "ctrl+oem_4",
         "command": "markdown.extension.onOutdentLines",
         "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
     },
@@ -147,7 +147,7 @@
         "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
     },
     {
-        "key": "ctrl+shift+oem_4",
+        "key": "ctrl+oem_4",
         "command": "editor.action.outdentLines",
         "when": "editorTextFocus && !editorReadonly"
     },
