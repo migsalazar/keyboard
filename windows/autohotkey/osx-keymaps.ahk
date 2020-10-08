@@ -58,12 +58,12 @@ LCtrl & Tab::AltTab
 ^+Left::Send {Shift down}{Home}{Shift up}
 ^+Right::Send {Shift down}{End}{Shift up}
 
-!Up::Send {PgUp}
-!Down::Send {PgDn}
+;!Up::Send {PgUp}
+;!Down::Send {PgDn}
 !Left::Send ^{Left}
 !Right::Send ^{Right}
-!+Up::Send {Shift down}{PgUp}
-!+Down::Send {Shift down}{PgDn}
+;!+Up::Send {Shift down}{PgUp}
+;!+Down::Send {Shift down}{PgDn}
 !+Left::Send {Shift down}{Lctrl down}{Left}{Lctrl up}{Shift up}
 !+Right::Send {Shift down}{Lctrl down}{Right}{Lctrl up}{Shift up}
 
