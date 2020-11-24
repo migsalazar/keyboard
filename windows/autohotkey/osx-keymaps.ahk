@@ -44,7 +44,7 @@ LCtrl & Tab::AltTab
 ; --------------------------------------------------------------
 ; command-delete deletes whole line
 ; --------------------------------------------------------------
-^BS::Send {LShift down}{Home}{LShift Up}{Del}
+;^BS::Send {LShift down}{Home}{LShift Up}{Del}
 
 ; --------------------------------------------------------------
 ; remaps alt-arrow and command-arrow
